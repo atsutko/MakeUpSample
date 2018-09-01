@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		05567C597A402631EDD2923C /* Pods_MakeUpSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CFF094B9E8431CD78D6F6A /* Pods_MakeUpSample.framework */; };
+		C12C8337213A8F6200567434 /* ProductTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C8336213A8F6200567434 /* ProductTypeViewController.swift */; };
+		C12C8339213A986C00567434 /* icons8-化粧ブラシ-44.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C8338213A986C00567434 /* icons8-化粧ブラシ-44.png */; };
+		C12C833D213A988500567434 /* icons8-検索-32.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C833A213A988400567434 /* icons8-検索-32.png */; };
+		C12C833E213A988500567434 /* icons8-ハート-32 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = C12C833B213A988400567434 /* icons8-ハート-32 (1).png */; };
+		C12C833F213A988500567434 /* icons8-ハート-32.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C833C213A988400567434 /* icons8-ハート-32.png */; };
+		C12C8341213A9A3F00567434 /* CosmeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C8340213A9A3F00567434 /* CosmeListViewController.swift */; };
+		C12C8343213AAF2E00567434 /* ExplainWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C8342213AAF2E00567434 /* ExplainWebViewController.swift */; };
+		C12C8346213ACEFF00567434 /* icons8-フェースパウダー-44.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C8344213ACEFF00567434 /* icons8-フェースパウダー-44.png */; };
+		C12C834A213ACF4C00567434 /* icons8-フェースパウダー-32.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C8348213ACF4B00567434 /* icons8-フェースパウダー-32.png */; };
+		C12C834B213ACF4C00567434 /* icons8-カテゴリー-32.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C8349213ACF4B00567434 /* icons8-カテゴリー-32.png */; };
 		C1319AEA2136881C009B212E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1319AE92136881C009B212E /* AppDelegate.swift */; };
 		C1319AEC2136881C009B212E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1319AEB2136881C009B212E /* ViewController.swift */; };
 		C1319AEF2136881C009B212E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1319AED2136881C009B212E /* Main.storyboard */; };
@@ -17,12 +27,24 @@
 		C1319B062136B8D2009B212E /* Cosme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1319B052136B8D2009B212E /* Cosme.swift */; };
 		C1319B0921370C62009B212E /* CosmeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1319B0721370C62009B212E /* CosmeTableViewCell.swift */; };
 		C1319B0A21370C62009B212E /* CosmeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1319B0821370C62009B212E /* CosmeTableViewCell.xib */; };
+		C1319B13213A7A14009B212E /* ProductTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1319B11213A7A14009B212E /* ProductTypeTableViewCell.swift */; };
+		C1319B14213A7A14009B212E /* ProductTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1319B12213A7A14009B212E /* ProductTypeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04588FCA5693F15BB6FD69EE /* Pods-MakeUpSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeUpSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakeUpSample/Pods-MakeUpSample.debug.xcconfig"; sourceTree = "<group>"; };
 		17CFF094B9E8431CD78D6F6A /* Pods_MakeUpSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeUpSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DDB4734510B9398E88C73E /* Pods-MakeUpSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeUpSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeUpSample/Pods-MakeUpSample.release.xcconfig"; sourceTree = "<group>"; };
+		C12C8336213A8F6200567434 /* ProductTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTypeViewController.swift; sourceTree = "<group>"; };
+		C12C8338213A986C00567434 /* icons8-化粧ブラシ-44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-化粧ブラシ-44.png"; sourceTree = "<group>"; };
+		C12C833A213A988400567434 /* icons8-検索-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-検索-32.png"; sourceTree = "<group>"; };
+		C12C833B213A988400567434 /* icons8-ハート-32 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-ハート-32 (1).png"; sourceTree = "<group>"; };
+		C12C833C213A988400567434 /* icons8-ハート-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-ハート-32.png"; sourceTree = "<group>"; };
+		C12C8340213A9A3F00567434 /* CosmeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmeListViewController.swift; sourceTree = "<group>"; };
+		C12C8342213AAF2E00567434 /* ExplainWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainWebViewController.swift; sourceTree = "<group>"; };
+		C12C8344213ACEFF00567434 /* icons8-フェースパウダー-44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-フェースパウダー-44.png"; sourceTree = "<group>"; };
+		C12C8348213ACF4B00567434 /* icons8-フェースパウダー-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-フェースパウダー-32.png"; sourceTree = "<group>"; };
+		C12C8349213ACF4B00567434 /* icons8-カテゴリー-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-カテゴリー-32.png"; sourceTree = "<group>"; };
 		C1319AE62136881C009B212E /* MakeUpSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeUpSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1319AE92136881C009B212E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1319AEB2136881C009B212E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +56,8 @@
 		C1319B052136B8D2009B212E /* Cosme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosme.swift; sourceTree = "<group>"; };
 		C1319B0721370C62009B212E /* CosmeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmeTableViewCell.swift; sourceTree = "<group>"; };
 		C1319B0821370C62009B212E /* CosmeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CosmeTableViewCell.xib; sourceTree = "<group>"; };
+		C1319B11213A7A14009B212E /* ProductTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTypeTableViewCell.swift; sourceTree = "<group>"; };
+		C1319B12213A7A14009B212E /* ProductTypeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTypeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +79,17 @@
 				B6DDB4734510B9398E88C73E /* Pods-MakeUpSample.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C12C8335213A8F2800567434 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1319AEB2136881C009B212E /* ViewController.swift */,
+				C12C8342213AAF2E00567434 /* ExplainWebViewController.swift */,
+				C12C8336213A8F6200567434 /* ProductTypeViewController.swift */,
+				C12C8340213A9A3F00567434 /* CosmeListViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		C1319ADD2136881C009B212E = {
@@ -79,17 +114,74 @@
 			isa = PBXGroup;
 			children = (
 				C1319AE92136881C009B212E /* AppDelegate.swift */,
-				C1319AFF21368B66009B212E /* MakeUpAPI.swift */,
-				C1319B052136B8D2009B212E /* Cosme.swift */,
-				C1319AEB2136881C009B212E /* ViewController.swift */,
-				C1319AED2136881C009B212E /* Main.storyboard */,
-				C1319B0721370C62009B212E /* CosmeTableViewCell.swift */,
-				C1319B0821370C62009B212E /* CosmeTableViewCell.xib */,
+				C1319B10213A79E9009B212E /* Resources */,
+				C1319B0C213A79A3009B212E /* Managers */,
+				C12C8335213A8F2800567434 /* Controllers */,
+				C1319B0D213A79B3009B212E /* Commons */,
 				C1319AF02136881E009B212E /* Assets.xcassets */,
-				C1319AF22136881E009B212E /* LaunchScreen.storyboard */,
 				C1319AF52136881E009B212E /* Info.plist */,
 			);
 			path = MakeUpSample;
+			sourceTree = "<group>";
+		};
+		C1319B0B213A7952009B212E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C1319B052136B8D2009B212E /* Cosme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C1319B0C213A79A3009B212E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C1319AFF21368B66009B212E /* MakeUpAPI.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C1319B0D213A79B3009B212E /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				C1319B0F213A79DE009B212E /* Cells */,
+				C1319B0E213A79CD009B212E /* StoryBoard */,
+				C1319B0B213A7952009B212E /* Models */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		C1319B0E213A79CD009B212E /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C1319AED2136881C009B212E /* Main.storyboard */,
+				C1319AF22136881E009B212E /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		C1319B0F213A79DE009B212E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C1319B0721370C62009B212E /* CosmeTableViewCell.swift */,
+				C1319B0821370C62009B212E /* CosmeTableViewCell.xib */,
+				C1319B11213A7A14009B212E /* ProductTypeTableViewCell.swift */,
+				C1319B12213A7A14009B212E /* ProductTypeTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C1319B10213A79E9009B212E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C12C8349213ACF4B00567434 /* icons8-カテゴリー-32.png */,
+				C12C8348213ACF4B00567434 /* icons8-フェースパウダー-32.png */,
+				C12C8338213A986C00567434 /* icons8-化粧ブラシ-44.png */,
+				C12C833B213A988400567434 /* icons8-ハート-32 (1).png */,
+				C12C833C213A988400567434 /* icons8-ハート-32.png */,
+				C12C833A213A988400567434 /* icons8-検索-32.png */,
+				C12C8344213ACEFF00567434 /* icons8-フェースパウダー-44.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		D7F4D60E0C836BBB1AAF5439 /* Frameworks */ = {
@@ -160,10 +252,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12C833E213A988500567434 /* icons8-ハート-32 (1).png in Resources */,
+				C12C8339213A986C00567434 /* icons8-化粧ブラシ-44.png in Resources */,
+				C12C833D213A988500567434 /* icons8-検索-32.png in Resources */,
 				C1319AF42136881E009B212E /* LaunchScreen.storyboard in Resources */,
 				C1319AF12136881E009B212E /* Assets.xcassets in Resources */,
+				C1319B14213A7A14009B212E /* ProductTypeTableViewCell.xib in Resources */,
 				C1319B0A21370C62009B212E /* CosmeTableViewCell.xib in Resources */,
+				C12C834B213ACF4C00567434 /* icons8-カテゴリー-32.png in Resources */,
+				C12C833F213A988500567434 /* icons8-ハート-32.png in Resources */,
 				C1319AEF2136881C009B212E /* Main.storyboard in Resources */,
+				C12C834A213ACF4C00567434 /* icons8-フェースパウダー-32.png in Resources */,
+				C12C8346213ACEFF00567434 /* icons8-フェースパウダー-44.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,12 +280,14 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -218,10 +320,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1319AEC2136881C009B212E /* ViewController.swift in Sources */,
+				C1319B13213A7A14009B212E /* ProductTypeTableViewCell.swift in Sources */,
+				C12C8341213A9A3F00567434 /* CosmeListViewController.swift in Sources */,
+				C12C8337213A8F6200567434 /* ProductTypeViewController.swift in Sources */,
 				C1319AEA2136881C009B212E /* AppDelegate.swift in Sources */,
 				C1319B062136B8D2009B212E /* Cosme.swift in Sources */,
 				C1319B0021368B66009B212E /* MakeUpAPI.swift in Sources */,
 				C1319B0921370C62009B212E /* CosmeTableViewCell.swift in Sources */,
+				C12C8343213AAF2E00567434 /* ExplainWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +475,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3E76788VZ5;
 				INFOPLIST_FILE = MakeUpSample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TakaoAtsushi.MakeUpSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -385,7 +494,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3E76788VZ5;
 				INFOPLIST_FILE = MakeUpSample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TakaoAtsushi.MakeUpSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
