@@ -34,7 +34,7 @@ class ProductTypeViewController: UIViewController, UITableViewDelegate, UITableV
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.performSegue(withIdentifier: "toCosmeListViewController", sender: nil)
+        self.performSegue(withIdentifier: "toSeasonSelectViewController", sender: nil)
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
@@ -49,9 +49,9 @@ class ProductTypeViewController: UIViewController, UITableViewDelegate, UITableV
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let cosmeListTableViewController = segue.destination as! CosmeListViewController
+        let selectSeasonViewController = segue.destination as! SelectSeasonViewController
         let selectedIndexPath = productTypeTableView.indexPathForSelectedRow!
-        cosmeListTableViewController.selectedCategory = productTypeNameArray[selectedIndexPath.row]
+        selectSeasonViewController.selectedCategory = productTypeNameArray[selectedIndexPath.row]
     }
 
 }

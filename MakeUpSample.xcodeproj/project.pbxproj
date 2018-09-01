@@ -18,6 +18,83 @@
 		C12C8346213ACEFF00567434 /* icons8-フェースパウダー-44.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C8344213ACEFF00567434 /* icons8-フェースパウダー-44.png */; };
 		C12C834A213ACF4C00567434 /* icons8-フェースパウダー-32.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C8348213ACF4B00567434 /* icons8-フェースパウダー-32.png */; };
 		C12C834B213ACF4C00567434 /* icons8-カテゴリー-32.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C8349213ACF4B00567434 /* icons8-カテゴリー-32.png */; };
+		C12C8350213ADF9E00567434 /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C834F213ADF9E00567434 /* UIColor+Extention.swift */; };
+		C12C8352213AE35C00567434 /* String+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C8351213AE35C00567434 /* String+Extention.swift */; };
+		C12C8354213AF17D00567434 /* HexValueToRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C8353213AF17D00567434 /* HexValueToRGB.swift */; };
+		C12C8356213AFC8600567434 /* LoadCSVFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C8355213AFC8600567434 /* LoadCSVFile.swift */; };
+		C12C83A1213B09C800567434 /* blush-summer-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8359213B09C100567434 /* blush-summer-blue-min.csv */; };
+		C12C83A2213B09C800567434 /* eyeshadow-autumn-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C835A213B09C100567434 /* eyeshadow-autumn-blue-max.csv */; };
+		C12C83A3213B09C800567434 /* blush-spring-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C835B213B09C100567434 /* blush-spring-blue-max.csv */; };
+		C12C83A4213B09C800567434 /* eyeshadow-spring-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C835C213B09C100567434 /* eyeshadow-spring-green-min.csv */; };
+		C12C83A5213B09C800567434 /* blush-autumn-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C835D213B09C100567434 /* blush-autumn-red-min.csv */; };
+		C12C83A6213B09C800567434 /* blush-autumn-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C835E213B09C100567434 /* blush-autumn-green-min.csv */; };
+		C12C83A7213B09C800567434 /* blush-winter-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C835F213B09C100567434 /* blush-winter-red-min.csv */; };
+		C12C83A8213B09C800567434 /* eyeshadow-autumn-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8360213B09C200567434 /* eyeshadow-autumn-red-min.csv */; };
+		C12C83A9213B09C800567434 /* blush-winter-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8361213B09C200567434 /* blush-winter-green-max.csv */; };
+		C12C83AA213B09C800567434 /* eyeshadow-autumn-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8362213B09C200567434 /* eyeshadow-autumn-green-min.csv */; };
+		C12C83AB213B09C800567434 /* blush-summer-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8363213B09C200567434 /* blush-summer-red-max.csv */; };
+		C12C83AC213B09C800567434 /* blush-autumn-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8364213B09C200567434 /* blush-autumn-blue-max.csv */; };
+		C12C83AD213B09C800567434 /* blush-winter-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8365213B09C200567434 /* blush-winter-green-min.csv */; };
+		C12C83AE213B09C800567434 /* eyeshadow-spring-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8366213B09C200567434 /* eyeshadow-spring-green-max.csv */; };
+		C12C83AF213B09C800567434 /* eyeshadow-summer-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8367213B09C200567434 /* eyeshadow-summer-red-max.csv */; };
+		C12C83B0213B09C800567434 /* blush-autumn-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8368213B09C200567434 /* blush-autumn-red-max.csv */; };
+		C12C83B1213B09C800567434 /* blush-autumn-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8369213B09C200567434 /* blush-autumn-blue-min.csv */; };
+		C12C83B2213B09C800567434 /* lipstick-winter-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C836A213B09C200567434 /* lipstick-winter-red-min.csv */; };
+		C12C83B3213B09C800567434 /* eyeshadow-autumn-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C836B213B09C200567434 /* eyeshadow-autumn-red-max.csv */; };
+		C12C83B4213B09C800567434 /* eyeshadow-winter-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C836C213B09C200567434 /* eyeshadow-winter-red-min.csv */; };
+		C12C83B5213B09C800567434 /* eyeshadow-summer-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C836D213B09C200567434 /* eyeshadow-summer-blue-min.csv */; };
+		C12C83B6213B09C800567434 /* lipstick-spring-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C836E213B09C300567434 /* lipstick-spring-red-min.csv */; };
+		C12C83B7213B09C800567434 /* lipstick-winter-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C836F213B09C300567434 /* lipstick-winter-blue-max.csv */; };
+		C12C83B8213B09C800567434 /* lipstick-summer-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8370213B09C300567434 /* lipstick-summer-blue-min.csv */; };
+		C12C83B9213B09C800567434 /* eyeshadow-spring-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8371213B09C300567434 /* eyeshadow-spring-red-max.csv */; };
+		C12C83BA213B09C800567434 /* lipstick-autumn-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8372213B09C300567434 /* lipstick-autumn-blue-max.csv */; };
+		C12C83BB213B09C800567434 /* lipstick-winter-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8373213B09C300567434 /* lipstick-winter-green-max.csv */; };
+		C12C83BC213B09C800567434 /* eyeshadow-summer-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8374213B09C300567434 /* eyeshadow-summer-green-min.csv */; };
+		C12C83BD213B09C800567434 /* eyeshadow-autumn-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8375213B09C300567434 /* eyeshadow-autumn-blue-min.csv */; };
+		C12C83BE213B09C800567434 /* eyeshadow-winter-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8376213B09C300567434 /* eyeshadow-winter-blue-min.csv */; };
+		C12C83BF213B09C800567434 /* lipstick-spring-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8377213B09C400567434 /* lipstick-spring-blue-max.csv */; };
+		C12C83C0213B09C800567434 /* eyeshadow-winter-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8378213B09C400567434 /* eyeshadow-winter-green-max.csv */; };
+		C12C83C1213B09C800567434 /* eyeshadow-summer-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8379213B09C400567434 /* eyeshadow-summer-red-min.csv */; };
+		C12C83C2213B09C800567434 /* eyeshadow-winter-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C837A213B09C400567434 /* eyeshadow-winter-red-max.csv */; };
+		C12C83C3213B09C800567434 /* lipstick-summer-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C837B213B09C400567434 /* lipstick-summer-green-max.csv */; };
+		C12C83C4213B09C800567434 /* lipstick-winter-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C837C213B09C400567434 /* lipstick-winter-green-min.csv */; };
+		C12C83C5213B09C800567434 /* blush-summer-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C837D213B09C400567434 /* blush-summer-blue-max.csv */; };
+		C12C83C6213B09C800567434 /* lipstick-spring-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C837E213B09C400567434 /* lipstick-spring-red-max.csv */; };
+		C12C83C7213B09C800567434 /* eyeshadow-winter-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C837F213B09C400567434 /* eyeshadow-winter-blue-max.csv */; };
+		C12C83C8213B09C800567434 /* lipstick-summer-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8380213B09C400567434 /* lipstick-summer-green-min.csv */; };
+		C12C83C9213B09C800567434 /* blush-spring-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8381213B09C400567434 /* blush-spring-green-min.csv */; };
+		C12C83CA213B09C800567434 /* lipstick-autumn-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8382213B09C500567434 /* lipstick-autumn-green-min.csv */; };
+		C12C83CB213B09C800567434 /* blush-summer-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8383213B09C500567434 /* blush-summer-green-min.csv */; };
+		C12C83CC213B09C800567434 /* eyeshadow-winter-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8384213B09C500567434 /* eyeshadow-winter-green-min.csv */; };
+		C12C83CD213B09C800567434 /* lipstick-autumn-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8385213B09C500567434 /* lipstick-autumn-red-min.csv */; };
+		C12C83CE213B09C800567434 /* eyeshadow-spring-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8386213B09C500567434 /* eyeshadow-spring-red-min.csv */; };
+		C12C83CF213B09C800567434 /* lipstick-spring-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8387213B09C500567434 /* lipstick-spring-green-max.csv */; };
+		C12C83D0213B09C800567434 /* blush-spring-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8388213B09C500567434 /* blush-spring-blue-min.csv */; };
+		C12C83D1213B09C800567434 /* lipstick-autumn-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8389213B09C500567434 /* lipstick-autumn-green-max.csv */; };
+		C12C83D2213B09C800567434 /* lipstick-autumn-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C838A213B09C600567434 /* lipstick-autumn-blue-min.csv */; };
+		C12C83D3213B09C800567434 /* lipstick-summer-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C838B213B09C600567434 /* lipstick-summer-red-max.csv */; };
+		C12C83D4213B09C800567434 /* lipstick-summer-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C838C213B09C600567434 /* lipstick-summer-red-min.csv */; };
+		C12C83D5213B09C800567434 /* lipstick-autumn-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C838D213B09C600567434 /* lipstick-autumn-red-max.csv */; };
+		C12C83D6213B09C800567434 /* blush-summer-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C838E213B09C600567434 /* blush-summer-red-min.csv */; };
+		C12C83D7213B09C800567434 /* blush-winter-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C838F213B09C600567434 /* blush-winter-red-max.csv */; };
+		C12C83D8213B09C800567434 /* eyeshadow-spring-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8390213B09C600567434 /* eyeshadow-spring-blue-max.csv */; };
+		C12C83D9213B09C800567434 /* eyeshadow-summer-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8391213B09C600567434 /* eyeshadow-summer-blue-max.csv */; };
+		C12C83DA213B09C800567434 /* blush-winter-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8392213B09C700567434 /* blush-winter-blue-min.csv */; };
+		C12C83DB213B09C800567434 /* blush-winter-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8393213B09C700567434 /* blush-winter-blue-max.csv */; };
+		C12C83DC213B09C800567434 /* eyeshadow-spring-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8394213B09C700567434 /* eyeshadow-spring-blue-min.csv */; };
+		C12C83DD213B09C800567434 /* lipstick-winter-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8395213B09C700567434 /* lipstick-winter-blue-min.csv */; };
+		C12C83DE213B09C800567434 /* lipstick-summer-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8396213B09C700567434 /* lipstick-summer-blue-max.csv */; };
+		C12C83DF213B09C800567434 /* eyeshadow-autumn-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8397213B09C700567434 /* eyeshadow-autumn-green-max.csv */; };
+		C12C83E0213B09C800567434 /* blush-summer-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8398213B09C700567434 /* blush-summer-green-max.csv */; };
+		C12C83E1213B09C800567434 /* eyeshadow-summer-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C8399213B09C700567434 /* eyeshadow-summer-green-max.csv */; };
+		C12C83E2213B09C800567434 /* blush-spring-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C839A213B09C700567434 /* blush-spring-green-max.csv */; };
+		C12C83E3213B09C800567434 /* lipstick-spring-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C839B213B09C800567434 /* lipstick-spring-green-min.csv */; };
+		C12C83E4213B09C800567434 /* blush-autumn-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C839C213B09C800567434 /* blush-autumn-green-max.csv */; };
+		C12C83E5213B09C800567434 /* lipstick-winter-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C839D213B09C800567434 /* lipstick-winter-red-max.csv */; };
+		C12C83E6213B09C800567434 /* lipstick-spring-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C839E213B09C800567434 /* lipstick-spring-blue-min.csv */; };
+		C12C83E7213B09C800567434 /* blush-spring-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C839F213B09C800567434 /* blush-spring-red-max.csv */; };
+		C12C83E8213B09C800567434 /* blush-spring-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = C12C83A0213B09C800567434 /* blush-spring-red-min.csv */; };
+		C12C83EA213B0BB500567434 /* SelectSeasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C83E9213B0BB500567434 /* SelectSeasonViewController.swift */; };
 		C1319AEA2136881C009B212E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1319AE92136881C009B212E /* AppDelegate.swift */; };
 		C1319AEC2136881C009B212E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1319AEB2136881C009B212E /* ViewController.swift */; };
 		C1319AEF2136881C009B212E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1319AED2136881C009B212E /* Main.storyboard */; };
@@ -45,6 +122,83 @@
 		C12C8344213ACEFF00567434 /* icons8-フェースパウダー-44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-フェースパウダー-44.png"; sourceTree = "<group>"; };
 		C12C8348213ACF4B00567434 /* icons8-フェースパウダー-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-フェースパウダー-32.png"; sourceTree = "<group>"; };
 		C12C8349213ACF4B00567434 /* icons8-カテゴリー-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-カテゴリー-32.png"; sourceTree = "<group>"; };
+		C12C834F213ADF9E00567434 /* UIColor+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
+		C12C8351213AE35C00567434 /* String+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extention.swift"; sourceTree = "<group>"; };
+		C12C8353213AF17D00567434 /* HexValueToRGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexValueToRGB.swift; sourceTree = "<group>"; };
+		C12C8355213AFC8600567434 /* LoadCSVFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadCSVFile.swift; sourceTree = "<group>"; };
+		C12C8359213B09C100567434 /* blush-summer-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-summer-blue-min.csv"; sourceTree = "<group>"; };
+		C12C835A213B09C100567434 /* eyeshadow-autumn-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-autumn-blue-max.csv"; sourceTree = "<group>"; };
+		C12C835B213B09C100567434 /* blush-spring-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-spring-blue-max.csv"; sourceTree = "<group>"; };
+		C12C835C213B09C100567434 /* eyeshadow-spring-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-spring-green-min.csv"; sourceTree = "<group>"; };
+		C12C835D213B09C100567434 /* blush-autumn-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-autumn-red-min.csv"; sourceTree = "<group>"; };
+		C12C835E213B09C100567434 /* blush-autumn-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-autumn-green-min.csv"; sourceTree = "<group>"; };
+		C12C835F213B09C100567434 /* blush-winter-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-winter-red-min.csv"; sourceTree = "<group>"; };
+		C12C8360213B09C200567434 /* eyeshadow-autumn-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-autumn-red-min.csv"; sourceTree = "<group>"; };
+		C12C8361213B09C200567434 /* blush-winter-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-winter-green-max.csv"; sourceTree = "<group>"; };
+		C12C8362213B09C200567434 /* eyeshadow-autumn-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-autumn-green-min.csv"; sourceTree = "<group>"; };
+		C12C8363213B09C200567434 /* blush-summer-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-summer-red-max.csv"; sourceTree = "<group>"; };
+		C12C8364213B09C200567434 /* blush-autumn-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-autumn-blue-max.csv"; sourceTree = "<group>"; };
+		C12C8365213B09C200567434 /* blush-winter-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-winter-green-min.csv"; sourceTree = "<group>"; };
+		C12C8366213B09C200567434 /* eyeshadow-spring-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-spring-green-max.csv"; sourceTree = "<group>"; };
+		C12C8367213B09C200567434 /* eyeshadow-summer-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-summer-red-max.csv"; sourceTree = "<group>"; };
+		C12C8368213B09C200567434 /* blush-autumn-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-autumn-red-max.csv"; sourceTree = "<group>"; };
+		C12C8369213B09C200567434 /* blush-autumn-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-autumn-blue-min.csv"; sourceTree = "<group>"; };
+		C12C836A213B09C200567434 /* lipstick-winter-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-winter-red-min.csv"; sourceTree = "<group>"; };
+		C12C836B213B09C200567434 /* eyeshadow-autumn-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-autumn-red-max.csv"; sourceTree = "<group>"; };
+		C12C836C213B09C200567434 /* eyeshadow-winter-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-winter-red-min.csv"; sourceTree = "<group>"; };
+		C12C836D213B09C200567434 /* eyeshadow-summer-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-summer-blue-min.csv"; sourceTree = "<group>"; };
+		C12C836E213B09C300567434 /* lipstick-spring-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-spring-red-min.csv"; sourceTree = "<group>"; };
+		C12C836F213B09C300567434 /* lipstick-winter-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-winter-blue-max.csv"; sourceTree = "<group>"; };
+		C12C8370213B09C300567434 /* lipstick-summer-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-summer-blue-min.csv"; sourceTree = "<group>"; };
+		C12C8371213B09C300567434 /* eyeshadow-spring-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-spring-red-max.csv"; sourceTree = "<group>"; };
+		C12C8372213B09C300567434 /* lipstick-autumn-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-autumn-blue-max.csv"; sourceTree = "<group>"; };
+		C12C8373213B09C300567434 /* lipstick-winter-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-winter-green-max.csv"; sourceTree = "<group>"; };
+		C12C8374213B09C300567434 /* eyeshadow-summer-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-summer-green-min.csv"; sourceTree = "<group>"; };
+		C12C8375213B09C300567434 /* eyeshadow-autumn-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-autumn-blue-min.csv"; sourceTree = "<group>"; };
+		C12C8376213B09C300567434 /* eyeshadow-winter-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-winter-blue-min.csv"; sourceTree = "<group>"; };
+		C12C8377213B09C400567434 /* lipstick-spring-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-spring-blue-max.csv"; sourceTree = "<group>"; };
+		C12C8378213B09C400567434 /* eyeshadow-winter-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-winter-green-max.csv"; sourceTree = "<group>"; };
+		C12C8379213B09C400567434 /* eyeshadow-summer-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-summer-red-min.csv"; sourceTree = "<group>"; };
+		C12C837A213B09C400567434 /* eyeshadow-winter-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-winter-red-max.csv"; sourceTree = "<group>"; };
+		C12C837B213B09C400567434 /* lipstick-summer-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-summer-green-max.csv"; sourceTree = "<group>"; };
+		C12C837C213B09C400567434 /* lipstick-winter-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-winter-green-min.csv"; sourceTree = "<group>"; };
+		C12C837D213B09C400567434 /* blush-summer-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-summer-blue-max.csv"; sourceTree = "<group>"; };
+		C12C837E213B09C400567434 /* lipstick-spring-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-spring-red-max.csv"; sourceTree = "<group>"; };
+		C12C837F213B09C400567434 /* eyeshadow-winter-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-winter-blue-max.csv"; sourceTree = "<group>"; };
+		C12C8380213B09C400567434 /* lipstick-summer-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-summer-green-min.csv"; sourceTree = "<group>"; };
+		C12C8381213B09C400567434 /* blush-spring-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-spring-green-min.csv"; sourceTree = "<group>"; };
+		C12C8382213B09C500567434 /* lipstick-autumn-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-autumn-green-min.csv"; sourceTree = "<group>"; };
+		C12C8383213B09C500567434 /* blush-summer-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-summer-green-min.csv"; sourceTree = "<group>"; };
+		C12C8384213B09C500567434 /* eyeshadow-winter-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-winter-green-min.csv"; sourceTree = "<group>"; };
+		C12C8385213B09C500567434 /* lipstick-autumn-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-autumn-red-min.csv"; sourceTree = "<group>"; };
+		C12C8386213B09C500567434 /* eyeshadow-spring-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-spring-red-min.csv"; sourceTree = "<group>"; };
+		C12C8387213B09C500567434 /* lipstick-spring-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-spring-green-max.csv"; sourceTree = "<group>"; };
+		C12C8388213B09C500567434 /* blush-spring-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-spring-blue-min.csv"; sourceTree = "<group>"; };
+		C12C8389213B09C500567434 /* lipstick-autumn-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-autumn-green-max.csv"; sourceTree = "<group>"; };
+		C12C838A213B09C600567434 /* lipstick-autumn-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-autumn-blue-min.csv"; sourceTree = "<group>"; };
+		C12C838B213B09C600567434 /* lipstick-summer-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-summer-red-max.csv"; sourceTree = "<group>"; };
+		C12C838C213B09C600567434 /* lipstick-summer-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-summer-red-min.csv"; sourceTree = "<group>"; };
+		C12C838D213B09C600567434 /* lipstick-autumn-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-autumn-red-max.csv"; sourceTree = "<group>"; };
+		C12C838E213B09C600567434 /* blush-summer-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-summer-red-min.csv"; sourceTree = "<group>"; };
+		C12C838F213B09C600567434 /* blush-winter-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-winter-red-max.csv"; sourceTree = "<group>"; };
+		C12C8390213B09C600567434 /* eyeshadow-spring-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-spring-blue-max.csv"; sourceTree = "<group>"; };
+		C12C8391213B09C600567434 /* eyeshadow-summer-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-summer-blue-max.csv"; sourceTree = "<group>"; };
+		C12C8392213B09C700567434 /* blush-winter-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-winter-blue-min.csv"; sourceTree = "<group>"; };
+		C12C8393213B09C700567434 /* blush-winter-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-winter-blue-max.csv"; sourceTree = "<group>"; };
+		C12C8394213B09C700567434 /* eyeshadow-spring-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-spring-blue-min.csv"; sourceTree = "<group>"; };
+		C12C8395213B09C700567434 /* lipstick-winter-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-winter-blue-min.csv"; sourceTree = "<group>"; };
+		C12C8396213B09C700567434 /* lipstick-summer-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-summer-blue-max.csv"; sourceTree = "<group>"; };
+		C12C8397213B09C700567434 /* eyeshadow-autumn-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-autumn-green-max.csv"; sourceTree = "<group>"; };
+		C12C8398213B09C700567434 /* blush-summer-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-summer-green-max.csv"; sourceTree = "<group>"; };
+		C12C8399213B09C700567434 /* eyeshadow-summer-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-summer-green-max.csv"; sourceTree = "<group>"; };
+		C12C839A213B09C700567434 /* blush-spring-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-spring-green-max.csv"; sourceTree = "<group>"; };
+		C12C839B213B09C800567434 /* lipstick-spring-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-spring-green-min.csv"; sourceTree = "<group>"; };
+		C12C839C213B09C800567434 /* blush-autumn-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-autumn-green-max.csv"; sourceTree = "<group>"; };
+		C12C839D213B09C800567434 /* lipstick-winter-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-winter-red-max.csv"; sourceTree = "<group>"; };
+		C12C839E213B09C800567434 /* lipstick-spring-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-spring-blue-min.csv"; sourceTree = "<group>"; };
+		C12C839F213B09C800567434 /* blush-spring-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-spring-red-max.csv"; sourceTree = "<group>"; };
+		C12C83A0213B09C800567434 /* blush-spring-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-spring-red-min.csv"; sourceTree = "<group>"; };
+		C12C83E9213B0BB500567434 /* SelectSeasonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSeasonViewController.swift; sourceTree = "<group>"; };
 		C1319AE62136881C009B212E /* MakeUpSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeUpSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1319AE92136881C009B212E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1319AEB2136881C009B212E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,9 +241,112 @@
 				C1319AEB2136881C009B212E /* ViewController.swift */,
 				C12C8342213AAF2E00567434 /* ExplainWebViewController.swift */,
 				C12C8336213A8F6200567434 /* ProductTypeViewController.swift */,
+				C12C83E9213B0BB500567434 /* SelectSeasonViewController.swift */,
 				C12C8340213A9A3F00567434 /* CosmeListViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C12C834E213ADF1C00567434 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				C12C834F213ADF9E00567434 /* UIColor+Extention.swift */,
+				C12C8351213AE35C00567434 /* String+Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		C12C8357213B099C00567434 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C12C8349213ACF4B00567434 /* icons8-カテゴリー-32.png */,
+				C12C8348213ACF4B00567434 /* icons8-フェースパウダー-32.png */,
+				C12C8338213A986C00567434 /* icons8-化粧ブラシ-44.png */,
+				C12C833B213A988400567434 /* icons8-ハート-32 (1).png */,
+				C12C833C213A988400567434 /* icons8-ハート-32.png */,
+				C12C833A213A988400567434 /* icons8-検索-32.png */,
+				C12C8344213ACEFF00567434 /* icons8-フェースパウダー-44.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		C12C8358213B09A600567434 /* csv */ = {
+			isa = PBXGroup;
+			children = (
+				C12C8364213B09C200567434 /* blush-autumn-blue-max.csv */,
+				C12C8369213B09C200567434 /* blush-autumn-blue-min.csv */,
+				C12C839C213B09C800567434 /* blush-autumn-green-max.csv */,
+				C12C835E213B09C100567434 /* blush-autumn-green-min.csv */,
+				C12C8368213B09C200567434 /* blush-autumn-red-max.csv */,
+				C12C835D213B09C100567434 /* blush-autumn-red-min.csv */,
+				C12C835B213B09C100567434 /* blush-spring-blue-max.csv */,
+				C12C8388213B09C500567434 /* blush-spring-blue-min.csv */,
+				C12C839A213B09C700567434 /* blush-spring-green-max.csv */,
+				C12C8381213B09C400567434 /* blush-spring-green-min.csv */,
+				C12C839F213B09C800567434 /* blush-spring-red-max.csv */,
+				C12C83A0213B09C800567434 /* blush-spring-red-min.csv */,
+				C12C837D213B09C400567434 /* blush-summer-blue-max.csv */,
+				C12C8359213B09C100567434 /* blush-summer-blue-min.csv */,
+				C12C8398213B09C700567434 /* blush-summer-green-max.csv */,
+				C12C8383213B09C500567434 /* blush-summer-green-min.csv */,
+				C12C8363213B09C200567434 /* blush-summer-red-max.csv */,
+				C12C838E213B09C600567434 /* blush-summer-red-min.csv */,
+				C12C8393213B09C700567434 /* blush-winter-blue-max.csv */,
+				C12C8392213B09C700567434 /* blush-winter-blue-min.csv */,
+				C12C8361213B09C200567434 /* blush-winter-green-max.csv */,
+				C12C8365213B09C200567434 /* blush-winter-green-min.csv */,
+				C12C838F213B09C600567434 /* blush-winter-red-max.csv */,
+				C12C835F213B09C100567434 /* blush-winter-red-min.csv */,
+				C12C835A213B09C100567434 /* eyeshadow-autumn-blue-max.csv */,
+				C12C8375213B09C300567434 /* eyeshadow-autumn-blue-min.csv */,
+				C12C8397213B09C700567434 /* eyeshadow-autumn-green-max.csv */,
+				C12C8362213B09C200567434 /* eyeshadow-autumn-green-min.csv */,
+				C12C836B213B09C200567434 /* eyeshadow-autumn-red-max.csv */,
+				C12C8360213B09C200567434 /* eyeshadow-autumn-red-min.csv */,
+				C12C8390213B09C600567434 /* eyeshadow-spring-blue-max.csv */,
+				C12C8394213B09C700567434 /* eyeshadow-spring-blue-min.csv */,
+				C12C8366213B09C200567434 /* eyeshadow-spring-green-max.csv */,
+				C12C835C213B09C100567434 /* eyeshadow-spring-green-min.csv */,
+				C12C8371213B09C300567434 /* eyeshadow-spring-red-max.csv */,
+				C12C8386213B09C500567434 /* eyeshadow-spring-red-min.csv */,
+				C12C8391213B09C600567434 /* eyeshadow-summer-blue-max.csv */,
+				C12C836D213B09C200567434 /* eyeshadow-summer-blue-min.csv */,
+				C12C8399213B09C700567434 /* eyeshadow-summer-green-max.csv */,
+				C12C8374213B09C300567434 /* eyeshadow-summer-green-min.csv */,
+				C12C8367213B09C200567434 /* eyeshadow-summer-red-max.csv */,
+				C12C8379213B09C400567434 /* eyeshadow-summer-red-min.csv */,
+				C12C837F213B09C400567434 /* eyeshadow-winter-blue-max.csv */,
+				C12C8376213B09C300567434 /* eyeshadow-winter-blue-min.csv */,
+				C12C8378213B09C400567434 /* eyeshadow-winter-green-max.csv */,
+				C12C8384213B09C500567434 /* eyeshadow-winter-green-min.csv */,
+				C12C837A213B09C400567434 /* eyeshadow-winter-red-max.csv */,
+				C12C836C213B09C200567434 /* eyeshadow-winter-red-min.csv */,
+				C12C8372213B09C300567434 /* lipstick-autumn-blue-max.csv */,
+				C12C838A213B09C600567434 /* lipstick-autumn-blue-min.csv */,
+				C12C8389213B09C500567434 /* lipstick-autumn-green-max.csv */,
+				C12C8382213B09C500567434 /* lipstick-autumn-green-min.csv */,
+				C12C838D213B09C600567434 /* lipstick-autumn-red-max.csv */,
+				C12C8385213B09C500567434 /* lipstick-autumn-red-min.csv */,
+				C12C8377213B09C400567434 /* lipstick-spring-blue-max.csv */,
+				C12C839E213B09C800567434 /* lipstick-spring-blue-min.csv */,
+				C12C8387213B09C500567434 /* lipstick-spring-green-max.csv */,
+				C12C839B213B09C800567434 /* lipstick-spring-green-min.csv */,
+				C12C837E213B09C400567434 /* lipstick-spring-red-max.csv */,
+				C12C836E213B09C300567434 /* lipstick-spring-red-min.csv */,
+				C12C8396213B09C700567434 /* lipstick-summer-blue-max.csv */,
+				C12C8370213B09C300567434 /* lipstick-summer-blue-min.csv */,
+				C12C837B213B09C400567434 /* lipstick-summer-green-max.csv */,
+				C12C8380213B09C400567434 /* lipstick-summer-green-min.csv */,
+				C12C838B213B09C600567434 /* lipstick-summer-red-max.csv */,
+				C12C838C213B09C600567434 /* lipstick-summer-red-min.csv */,
+				C12C836F213B09C300567434 /* lipstick-winter-blue-max.csv */,
+				C12C8395213B09C700567434 /* lipstick-winter-blue-min.csv */,
+				C12C8373213B09C300567434 /* lipstick-winter-green-max.csv */,
+				C12C837C213B09C400567434 /* lipstick-winter-green-min.csv */,
+				C12C839D213B09C800567434 /* lipstick-winter-red-max.csv */,
+				C12C836A213B09C200567434 /* lipstick-winter-red-min.csv */,
+			);
+			path = csv;
 			sourceTree = "<group>";
 		};
 		C1319ADD2136881C009B212E = {
@@ -113,6 +370,7 @@
 		C1319AE82136881C009B212E /* MakeUpSample */ = {
 			isa = PBXGroup;
 			children = (
+				C12C834E213ADF1C00567434 /* Extention */,
 				C1319AE92136881C009B212E /* AppDelegate.swift */,
 				C1319B10213A79E9009B212E /* Resources */,
 				C1319B0C213A79A3009B212E /* Managers */,
@@ -136,6 +394,8 @@
 			isa = PBXGroup;
 			children = (
 				C1319AFF21368B66009B212E /* MakeUpAPI.swift */,
+				C12C8353213AF17D00567434 /* HexValueToRGB.swift */,
+				C12C8355213AFC8600567434 /* LoadCSVFile.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -173,13 +433,8 @@
 		C1319B10213A79E9009B212E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C12C8349213ACF4B00567434 /* icons8-カテゴリー-32.png */,
-				C12C8348213ACF4B00567434 /* icons8-フェースパウダー-32.png */,
-				C12C8338213A986C00567434 /* icons8-化粧ブラシ-44.png */,
-				C12C833B213A988400567434 /* icons8-ハート-32 (1).png */,
-				C12C833C213A988400567434 /* icons8-ハート-32.png */,
-				C12C833A213A988400567434 /* icons8-検索-32.png */,
-				C12C8344213ACEFF00567434 /* icons8-フェースパウダー-44.png */,
+				C12C8358213B09A600567434 /* csv */,
+				C12C8357213B099C00567434 /* Image */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -252,18 +507,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12C83C0213B09C800567434 /* eyeshadow-winter-green-max.csv in Resources */,
+				C12C83AC213B09C800567434 /* blush-autumn-blue-max.csv in Resources */,
+				C12C83CA213B09C800567434 /* lipstick-autumn-green-min.csv in Resources */,
+				C12C83CD213B09C800567434 /* lipstick-autumn-red-min.csv in Resources */,
+				C12C83A6213B09C800567434 /* blush-autumn-green-min.csv in Resources */,
+				C12C83AA213B09C800567434 /* eyeshadow-autumn-green-min.csv in Resources */,
+				C12C83C7213B09C800567434 /* eyeshadow-winter-blue-max.csv in Resources */,
+				C12C83E6213B09C800567434 /* lipstick-spring-blue-min.csv in Resources */,
+				C12C83B5213B09C800567434 /* eyeshadow-summer-blue-min.csv in Resources */,
+				C12C83D3213B09C800567434 /* lipstick-summer-red-max.csv in Resources */,
+				C12C83E0213B09C800567434 /* blush-summer-green-max.csv in Resources */,
+				C12C83A4213B09C800567434 /* eyeshadow-spring-green-min.csv in Resources */,
+				C12C83A3213B09C800567434 /* blush-spring-blue-max.csv in Resources */,
+				C12C83BF213B09C800567434 /* lipstick-spring-blue-max.csv in Resources */,
+				C12C83DD213B09C800567434 /* lipstick-winter-blue-min.csv in Resources */,
 				C12C833E213A988500567434 /* icons8-ハート-32 (1).png in Resources */,
+				C12C83AB213B09C800567434 /* blush-summer-red-max.csv in Resources */,
 				C12C8339213A986C00567434 /* icons8-化粧ブラシ-44.png in Resources */,
+				C12C83D2213B09C800567434 /* lipstick-autumn-blue-min.csv in Resources */,
 				C12C833D213A988500567434 /* icons8-検索-32.png in Resources */,
+				C12C83E5213B09C800567434 /* lipstick-winter-red-max.csv in Resources */,
 				C1319AF42136881E009B212E /* LaunchScreen.storyboard in Resources */,
+				C12C83B0213B09C800567434 /* blush-autumn-red-max.csv in Resources */,
+				C12C83B7213B09C800567434 /* lipstick-winter-blue-max.csv in Resources */,
+				C12C83C4213B09C800567434 /* lipstick-winter-green-min.csv in Resources */,
+				C12C83B2213B09C800567434 /* lipstick-winter-red-min.csv in Resources */,
+				C12C83C6213B09C800567434 /* lipstick-spring-red-max.csv in Resources */,
+				C12C83D4213B09C800567434 /* lipstick-summer-red-min.csv in Resources */,
+				C12C83E4213B09C800567434 /* blush-autumn-green-max.csv in Resources */,
+				C12C83E1213B09C800567434 /* eyeshadow-summer-green-max.csv in Resources */,
+				C12C83BC213B09C800567434 /* eyeshadow-summer-green-min.csv in Resources */,
+				C12C83A8213B09C800567434 /* eyeshadow-autumn-red-min.csv in Resources */,
+				C12C83C5213B09C800567434 /* blush-summer-blue-max.csv in Resources */,
+				C12C83E3213B09C800567434 /* lipstick-spring-green-min.csv in Resources */,
 				C1319AF12136881E009B212E /* Assets.xcassets in Resources */,
+				C12C83C8213B09C800567434 /* lipstick-summer-green-min.csv in Resources */,
+				C12C83B1213B09C800567434 /* blush-autumn-blue-min.csv in Resources */,
+				C12C83DC213B09C800567434 /* eyeshadow-spring-blue-min.csv in Resources */,
+				C12C83B8213B09C800567434 /* lipstick-summer-blue-min.csv in Resources */,
+				C12C83A2213B09C800567434 /* eyeshadow-autumn-blue-max.csv in Resources */,
 				C1319B14213A7A14009B212E /* ProductTypeTableViewCell.xib in Resources */,
+				C12C83A9213B09C800567434 /* blush-winter-green-max.csv in Resources */,
+				C12C83BE213B09C800567434 /* eyeshadow-winter-blue-min.csv in Resources */,
+				C12C83CB213B09C800567434 /* blush-summer-green-min.csv in Resources */,
 				C1319B0A21370C62009B212E /* CosmeTableViewCell.xib in Resources */,
+				C12C83E2213B09C800567434 /* blush-spring-green-max.csv in Resources */,
+				C12C83C9213B09C800567434 /* blush-spring-green-min.csv in Resources */,
+				C12C83BA213B09C800567434 /* lipstick-autumn-blue-max.csv in Resources */,
 				C12C834B213ACF4C00567434 /* icons8-カテゴリー-32.png in Resources */,
+				C12C83BD213B09C800567434 /* eyeshadow-autumn-blue-min.csv in Resources */,
 				C12C833F213A988500567434 /* icons8-ハート-32.png in Resources */,
+				C12C83D9213B09C800567434 /* eyeshadow-summer-blue-max.csv in Resources */,
+				C12C83DA213B09C800567434 /* blush-winter-blue-min.csv in Resources */,
 				C1319AEF2136881C009B212E /* Main.storyboard in Resources */,
+				C12C83DE213B09C800567434 /* lipstick-summer-blue-max.csv in Resources */,
+				C12C83AF213B09C800567434 /* eyeshadow-summer-red-max.csv in Resources */,
+				C12C83C1213B09C800567434 /* eyeshadow-summer-red-min.csv in Resources */,
+				C12C83A1213B09C800567434 /* blush-summer-blue-min.csv in Resources */,
+				C12C83C2213B09C800567434 /* eyeshadow-winter-red-max.csv in Resources */,
+				C12C83DF213B09C800567434 /* eyeshadow-autumn-green-max.csv in Resources */,
 				C12C834A213ACF4C00567434 /* icons8-フェースパウダー-32.png in Resources */,
+				C12C83D8213B09C800567434 /* eyeshadow-spring-blue-max.csv in Resources */,
+				C12C83AD213B09C800567434 /* blush-winter-green-min.csv in Resources */,
+				C12C83B6213B09C800567434 /* lipstick-spring-red-min.csv in Resources */,
+				C12C83E7213B09C800567434 /* blush-spring-red-max.csv in Resources */,
+				C12C83D5213B09C800567434 /* lipstick-autumn-red-max.csv in Resources */,
+				C12C83D6213B09C800567434 /* blush-summer-red-min.csv in Resources */,
+				C12C83DB213B09C800567434 /* blush-winter-blue-max.csv in Resources */,
+				C12C83AE213B09C800567434 /* eyeshadow-spring-green-max.csv in Resources */,
+				C12C83A7213B09C800567434 /* blush-winter-red-min.csv in Resources */,
+				C12C83B3213B09C800567434 /* eyeshadow-autumn-red-max.csv in Resources */,
+				C12C83CE213B09C800567434 /* eyeshadow-spring-red-min.csv in Resources */,
+				C12C83D7213B09C800567434 /* blush-winter-red-max.csv in Resources */,
+				C12C83E8213B09C800567434 /* blush-spring-red-min.csv in Resources */,
+				C12C83B9213B09C800567434 /* eyeshadow-spring-red-max.csv in Resources */,
 				C12C8346213ACEFF00567434 /* icons8-フェースパウダー-44.png in Resources */,
+				C12C83BB213B09C800567434 /* lipstick-winter-green-max.csv in Resources */,
+				C12C83B4213B09C800567434 /* eyeshadow-winter-red-min.csv in Resources */,
+				C12C83A5213B09C800567434 /* blush-autumn-red-min.csv in Resources */,
+				C12C83CC213B09C800567434 /* eyeshadow-winter-green-min.csv in Resources */,
+				C12C83D1213B09C800567434 /* lipstick-autumn-green-max.csv in Resources */,
+				C12C83C3213B09C800567434 /* lipstick-summer-green-max.csv in Resources */,
+				C12C83CF213B09C800567434 /* lipstick-spring-green-max.csv in Resources */,
+				C12C83D0213B09C800567434 /* blush-spring-blue-min.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,13 +646,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12C8352213AE35C00567434 /* String+Extention.swift in Sources */,
 				C1319AEC2136881C009B212E /* ViewController.swift in Sources */,
 				C1319B13213A7A14009B212E /* ProductTypeTableViewCell.swift in Sources */,
 				C12C8341213A9A3F00567434 /* CosmeListViewController.swift in Sources */,
 				C12C8337213A8F6200567434 /* ProductTypeViewController.swift in Sources */,
+				C12C8356213AFC8600567434 /* LoadCSVFile.swift in Sources */,
 				C1319AEA2136881C009B212E /* AppDelegate.swift in Sources */,
 				C1319B062136B8D2009B212E /* Cosme.swift in Sources */,
+				C12C83EA213B0BB500567434 /* SelectSeasonViewController.swift in Sources */,
+				C12C8354213AF17D00567434 /* HexValueToRGB.swift in Sources */,
 				C1319B0021368B66009B212E /* MakeUpAPI.swift in Sources */,
+				C12C8350213ADF9E00567434 /* UIColor+Extention.swift in Sources */,
 				C1319B0921370C62009B212E /* CosmeTableViewCell.swift in Sources */,
 				C12C8343213AAF2E00567434 /* ExplainWebViewController.swift in Sources */,
 			);

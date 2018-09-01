@@ -15,6 +15,7 @@ class CosmeListViewController: UIViewController, UITableViewDataSource, UITableV
     @IBOutlet weak var cosmeListTableView: UITableView!
     
     var selectedCategory: String = ""
+    var selectedSeason: String = ""
     var selectedIndex: Int = 0
     var cosmeArray: [Cosme] = []
     
@@ -78,13 +79,19 @@ class CosmeListViewController: UIViewController, UITableViewDataSource, UITableV
                             let productType = result["product_type"] as! String
                             let productColors = result["product_colors"] as! [NSDictionary]
                             for productColor in productColors {
-                                if let color = productColor["colour_name"] as? String {
-                                    if let productBrand = result["brand"] as? String {
-                                        let imageUrl = result["image_link"] as! String
-                                        let webUrl = result["product_link"] as! String
-                                        let cosme = Cosme(productName: productName, productDescription: productDescription, productPrice: productPrice, productBrand: productBrand, productType: productType, productColor: color, productImageUrl: imageUrl, productWebUrl: webUrl)
-                                        self.cosmeArray.append(cosme)
-                                    }
+                                if let color = productColor["hex_value"] as? String {
+                                    HexValueToRGB.hexValueToRGB(hexValue: color, complition: { (red, blue, green) in
+                                        HexValueToRGB.rangeJudge(category: self.switchCategory(selectedCategory: self.selectedCategory)!, season: self.selectedSeason, red: red, green: green, blue: blue, complition: { (success) in
+                                            if success == true {
+                                                if let productBrand = result["brand"] as? String {
+                                                    let imageUrl = result["image_link"] as! String
+                                                    let webUrl = result["product_link"] as! String
+                                                    let cosme = Cosme(productName: productName, productDescription: productDescription, productPrice: productPrice, productBrand: productBrand, productType: productType, productColor: color, productImageUrl: imageUrl, productWebUrl: webUrl)
+                                                    self.cosmeArray.append(cosme)
+                                                }
+                                            }
+                                        })
+                                    })
                                 }
                                 
                                 DispatchQueue.main.async {
@@ -119,10 +126,13 @@ class CosmeListViewController: UIViewController, UITableViewDataSource, UITableV
         cell.productDescriptionTextView.text = cosmeArray[indexPath.row].productDescription
         cell.productTypeLabel.text = cosmeArray[indexPath.row].productType
         cell.productBrandLabel.text = cosmeArray[indexPath.row].productBrand
-        cell.productColorLabel.text = cosmeArray[indexPath.row].productColor
         cell.productPriceLabel.text = cosmeArray[indexPath.row].productPrice
         cell.productImageView.sd_setImage(with: URL(string: cosmeArray[indexPath.row].productImageUrl), completed: nil)
         cell.productWebUrlLabel.text = cosmeArray[indexPath.row].productWebUrl
+        
+        HexValueToRGB.hexValueToRGB(hexValue: cosmeArray[indexPath.row].productColor) { (red, blue, green) in
+            cell.productColorLabel.text = "\(red),\(blue),\(green)"
+        }
         
         return cell
     }

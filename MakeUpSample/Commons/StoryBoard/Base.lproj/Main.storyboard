@@ -79,7 +79,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eom-Pr-faH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2709.5999999999999" y="-781.25937031484261"/>
+            <point key="canvasLocation" x="3222" y="-806"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="HE9-nw-2gC">
@@ -130,12 +130,48 @@
                     <navigationItem key="navigationItem" id="CZ7-UT-Ngt"/>
                     <connections>
                         <outlet property="productTypeTableView" destination="Px2-04-YbO" id="swB-Iw-2bc"/>
-                        <segue destination="D53-4k-DaO" kind="show" identifier="toCosmeListViewController" id="vJP-UK-j8H"/>
+                        <segue destination="VHJ-IO-lFC" kind="show" identifier="toSeasonSelectViewController" id="LBw-my-oFd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WKs-ja-1ua" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1783.2" y="-31.03448275862069"/>
+        </scene>
+        <!--Select Season View Controller-->
+        <scene sceneID="W6X-jg-MRk">
+            <objects>
+                <viewController id="VHJ-IO-lFC" customClass="SelectSeasonViewController" customModule="MakeUpSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IqY-OS-m27">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uvZ-gr-hIr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="seasonCell" id="4IZ-is-8Wd">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4IZ-is-8Wd" id="rJE-aq-rtr">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Trk-sa-KPw"/>
+                    </view>
+                    <connections>
+                        <outlet property="seasonTableView" destination="uvZ-gr-hIr" id="cen-m9-Qoc"/>
+                        <segue destination="D53-4k-DaO" kind="show" identifier="toCosmeListViewController" id="H1i-qj-gVq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="prK-v5-H1e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2500" y="-27.436281859070466"/>
         </scene>
         <!--Cosme List View Controller-->
         <scene sceneID="GEy-wf-rdL">
@@ -171,13 +207,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o8R-lj-4cS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2710" y="-31"/>
+            <point key="canvasLocation" x="3223" y="-31"/>
         </scene>
-        <!--カテゴリー-->
+        <!--詳細検索-->
         <scene sceneID="IdQ-gy-lDc">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wXx-24-r64" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="カテゴリー" image="icons8-カテゴリー-32.png" landscapeImage="icons8-カテゴリー-32.png" id="EsV-w5-jWb"/>
+                    <tabBarItem key="tabBarItem" title="詳細検索" image="icons8-カテゴリー-32.png" landscapeImage="icons8-カテゴリー-32.png" id="EsV-w5-jWb"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JX2-Or-mgC">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
